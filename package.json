@@ -1,0 +1,14 @@
+{
+  "name": "live-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pvcresin/testliveserver.git",
+  "author": "pvcresin <pvcresin0730@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "start": "live-server --browser=chrome --open=dist --watch=dist"
+  }
+}
