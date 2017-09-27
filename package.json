@@ -9,6 +9,6 @@
     "live-server": "^1.2.0"
   },
   "scripts": {
-    "start": "live-server --browser=chrome --open=dist --watch=dist"
+    "start": "live-server dist --browser=chrome --watch=/"
   }
 }
